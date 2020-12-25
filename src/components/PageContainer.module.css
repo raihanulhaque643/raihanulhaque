@@ -1,0 +1,12 @@
+.pageContainer {
+    /* background-image: url('../assets/backdrop.jpg'); */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), 
+    url("../assets/backdrop.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Photo by Minh Pham on Unsplash */
+}
