@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
@@ -9,6 +10,7 @@ import styles from './PageContainer.module.css';
 const PageContainer = () => {
     return (
         <div className={styles.pageContainer}>
+        <Container>
             <Switch>
                 <Route path="/about">
                     <About />
@@ -23,6 +25,7 @@ const PageContainer = () => {
                     <Home />
                 </Route>
             </Switch>
+        </Container>
         </div>
     )
 }
