@@ -10,7 +10,7 @@ const Projects = () => {
         <div>
         <Row>
         <Col sm="12" md="6" lg="4">
-            <Card style={{width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '20px 0px', minHeight: '420px' }}>
+            <Card style={{width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '30px 0px', minHeight: '420px' }}>
             <Card.Img variant="top" src={car} />
             <Card.Body>
                 <Card.Title>Car Garage</Card.Title>
@@ -23,20 +23,20 @@ const Projects = () => {
             </Card>
         </Col>
         <Col sm="12" md="6" lg="4">
-            <Card style={{ width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '20px 0px', minHeight: '420px'   }}>
+            <Card style={{ width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '30px 0px', minHeight: '420px'   }}>
             <Card.Img variant="top" src={bikroy} />
             <Card.Body>
                 <Card.Title>Bikroy Clone</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Live: <a target="blank" href="https://bikroy-clone.firebaseapp.com/home">https://bikroy-clone.firebaseapp.com/home</a> </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">Code: <a target="blank" href="https://github.com/raihanulhaque643/bikroy-clone">https://github.com/raihanulhaque643/bikroy-clone</a> </Card.Subtitle>
                 <Card.Text>
-                Replica of Bikroy.com using React, Redux, Firebase
+                Replica of Bikroy.com using React, Redux & Firebase.
                 </Card.Text>
             </Card.Body>
             </Card>
         </Col>
         <Col sm="12" md="6" lg="4">
-            <Card style={{ width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '20px 0px', minHeight: '420px'  }}>
+            <Card style={{ width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '30px 0px', minHeight: '420px'  }}>
             <Card.Img variant="top" src={ecom} />
             <Card.Body>
                 <Card.Title>Crwn Clothing</Card.Title>
@@ -49,7 +49,7 @@ const Projects = () => {
             </Card>
         </Col>
         <Col sm="12" md="6" lg="4">
-            <Card style={{ width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '20px 0px', minHeight: '420px'  }}>
+            <Card style={{ width: 'auto', background: 'rgba(0,0,0,0.5)', margin: '30px 0px', minHeight: '420px'  }}>
             <Card.Img variant="top" src={youtube} />
             <Card.Body>
                 <Card.Title>Fake Youtube</Card.Title>
@@ -57,7 +57,7 @@ const Projects = () => {
                 <Card.Subtitle className="mb-2 text-muted">Code: <a target="blank" href="https://github.com/raihanulhaque643/youtube-clone">https://github.com/raihanulhaque643/youtube-clone</a> </Card.Subtitle>
                 <Card.Text></Card.Text>
                 <Card.Text>
-                Youtube-clone using react js
+                Youtube-clone using React Js.
                 </Card.Text>
             </Card.Body>
             </Card>
